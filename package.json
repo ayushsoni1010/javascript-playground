@@ -1,0 +1,27 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "description": "This repository contains all the JavaScript one-liners, tricks, different patterns of solving a problem and how to write a optimize code.",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server":"nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayushsoni1010/javascript-playground.git"
+  },
+  "keywords": [],
+  "author": "Ayush Soni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayushsoni1010/javascript-playground/issues"
+  },
+  "homepage": "https://github.com/ayushsoni1010/javascript-playground#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.2"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
