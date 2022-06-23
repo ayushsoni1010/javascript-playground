@@ -147,3 +147,10 @@ str25.substring(0, 3);
 const str26 = "Hello World";
 str26.substr(1, 2); // "el"
 // NOTE: substr takes parameters as (from, length).
+
+
+// Repeat a string
+// repeat()
+const str27 = (string, numberOfTimes) => string.repeat(numberOfTimes)
+
+console.log(str27("Hello Ayush ",10))

@@ -7,7 +7,7 @@ const ToggleComponent = () => {
   return (
     <React.Fragment>
       <div>
-        <h1>{value.toString()}</h1>
+        <h1>{value}</h1>
         <button type="button" onClick={toggleValue}>
           Toggle
         </button>
