@@ -58,3 +58,7 @@ Math.min() > Math.max(); // -> true
 Math.min(); // -> Infinity
 Math.max(); // -> -Infinity
 Infinity > -Infinity; // -> true
+
+
+// 5. Detect the height of the app by using JS
+console.log(window.innerHeight);
