@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon moment.js"
   },
   "keywords": [],
   "author": "",
@@ -12,7 +13,12 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.1",
+    "helmet": "^5.1.0",
+    "moment": "^2.29.4",
     "mongoose": "^6.3.8",
-    "nodemon": "^2.0.16"
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.16",
+    "validator": "^13.7.0"
   }
 }
